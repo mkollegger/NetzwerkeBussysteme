@@ -126,6 +126,8 @@ void initIICChip()
 	Wire.beginTransmission(0x20);
 	Wire.write(byte(0xFF));
 	Wire.endTransmission();
+
+	
 }
 
 
