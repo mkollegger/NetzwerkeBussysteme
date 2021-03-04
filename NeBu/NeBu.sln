@@ -17,10 +17,30 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo_02_IIC", "Demo_02_IIC\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9AAC3DA6-7748-4555-B88E-87BE9991FEAC}"
 	ProjectSection(SolutionItems) = preProject
-		Demo 2 - Infos.md = Demo 2 - Infos.md
-		Domo 1 - Infos.md = Domo 1 - Infos.md
+		Demo 10 - Lora.md = Demo 10 - Lora.md
+		Demo 11 - SignalR.md = Demo 11 - SignalR.md
+		Demo 12 - gRPC.md = Demo 12 - gRPC.md
+		Demo 13 -Azure IoT.md = Demo 13 -Azure IoT.md
+		Demo 14 - Serverless Functions.md = Demo 14 - Serverless Functions.md
+		Demo 2 - IIC.md = Demo 2 - IIC.md
+		Demo 3 - RS232.md = Demo 3 - RS232.md
+		Demo 4 - Modbus.md = Demo 4 - Modbus.md
+		Demo 5 - KNX.md = Demo 5 - KNX.md
+		Demo 6 - Open Hub.md = Demo 6 - Open Hub.md
+		Demo 7 - Ethernet 2.md = Demo 7 - Ethernet 2.md
+		Demo 8 - USB.md = Demo 8 - USB.md
+		Demo 9 - OPC UA.md = Demo 9 - OPC UA.md
+		Domo 1 - Netzwerk.md = Domo 1 - Netzwerk.md
 		..\README.md = ..\README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo 3", "Demo 3", "{E487A091-32FC-42ED-83E3-710D863F58EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_03_RS232_PC", "Demo_03_RS232\Demo_03_RS232_PC\Demo_03_RS232_PC.csproj", "{140D665D-ACEF-4CFA-934B-984A760894B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo_03_RS232_Arduino", "Demo_03_RS232\Demo_03_RS232_Arduino\Demo_03_RS232_Arduino.vcxproj", "{669F51EC-0023-4D43-A3DE-FF79DB5C92A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo 4", "Demo 4", "{CB44194C-AF23-4445-986C-032729924802}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +76,20 @@ Global
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|Any CPU.ActiveCfg = Release|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{140D665D-ACEF-4CFA-934B-984A760894B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140D665D-ACEF-4CFA-934B-984A760894B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140D665D-ACEF-4CFA-934B-984A760894B1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{140D665D-ACEF-4CFA-934B-984A760894B1}.Debug|x86.Build.0 = Debug|Any CPU
+		{140D665D-ACEF-4CFA-934B-984A760894B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140D665D-ACEF-4CFA-934B-984A760894B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140D665D-ACEF-4CFA-934B-984A760894B1}.Release|x86.ActiveCfg = Release|Any CPU
+		{140D665D-ACEF-4CFA-934B-984A760894B1}.Release|x86.Build.0 = Release|Any CPU
+		{669F51EC-0023-4D43-A3DE-FF79DB5C92A9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{669F51EC-0023-4D43-A3DE-FF79DB5C92A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{669F51EC-0023-4D43-A3DE-FF79DB5C92A9}.Debug|x86.Build.0 = Debug|Win32
+		{669F51EC-0023-4D43-A3DE-FF79DB5C92A9}.Release|Any CPU.ActiveCfg = Release|Win32
+		{669F51EC-0023-4D43-A3DE-FF79DB5C92A9}.Release|x86.ActiveCfg = Release|Win32
+		{669F51EC-0023-4D43-A3DE-FF79DB5C92A9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +99,8 @@ Global
 		{B4A004EB-E4E4-4749-AC4A-5BF171A4D295} = {6FCEEF71-FB02-4D5C-8709-1BAE309E6725}
 		{85BD8D2E-131C-4C12-8092-CFC8EB2173E8} = {6FCEEF71-FB02-4D5C-8709-1BAE309E6725}
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88} = {F7FC88D0-A8E5-4911-9A1F-7F42E2950878}
+		{140D665D-ACEF-4CFA-934B-984A760894B1} = {E487A091-32FC-42ED-83E3-710D863F58EF}
+		{669F51EC-0023-4D43-A3DE-FF79DB5C92A9} = {E487A091-32FC-42ED-83E3-710D863F58EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ABA08703-DC72-4F47-A761-8E95E7B7601E}
