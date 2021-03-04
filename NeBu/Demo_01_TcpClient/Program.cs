@@ -16,8 +16,8 @@ namespace Demo_01_TcpClient
     {
         static void Main(string[] args)
         {
-            //Connect("127.0.0.1","Hallo Welt!");
-            Connect("10.0.0.133", "Hallo Welt!");
+            Connect("127.0.0.1","Hallo Welt!");
+            //Connect("10.0.0.133", "Hallo Welt!");
         }
 
         static void Connect(String server, String message)
