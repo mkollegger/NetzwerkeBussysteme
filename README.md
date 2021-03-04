@@ -1,5 +1,5 @@
 # Netzwerke und Bussysteme
-(C) 202! Michael Kollegger
+(C) 2021 Michael Kollegger
 
 Labs für die Lehrveranstaltung "Netzwerke und Bussysteme"  
 
