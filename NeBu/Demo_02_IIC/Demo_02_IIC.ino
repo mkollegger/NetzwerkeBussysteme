@@ -11,7 +11,7 @@
 byte counter = 0;
 
 
-const int SDAPin =	2;
+const int SDAPin = 2;
 const int SCLPin = 3;
 
 
@@ -150,10 +150,10 @@ void loop() {
   delay(200);              // wait for a second
 
   counter ++;
-  Wire.beginTransmission(0x20);
-  Wire.write(byte(counter));
-  Wire.endTransmission();
-
+  //Wire.beginTransmission(0x20);
+  //Wire.write(byte(counter));
+  //Wire.endTransmission();
+  counter = 0x55;
   IIC_start();
   IIC_send_byte(0x40);
   IIC_send_byte(counter);
