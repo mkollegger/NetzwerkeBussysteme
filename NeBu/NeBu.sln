@@ -28,7 +28,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Demo 5 - KNX.md = Demo 5 - KNX.md
 		Demo 6 - Open Hub.md = Demo 6 - Open Hub.md
 		Demo 7 - Ethernet 2.md = Demo 7 - Ethernet 2.md
-		Demo 8 - USB.md = Demo 8 - USB.md
+		Demo 8 - Connectivity.md = Demo 8 - Connectivity.md
 		Demo 9 - OPC UA.md = Demo 9 - OPC UA.md
 		Domo 1 - Netzwerk.md = Domo 1 - Netzwerk.md
 		..\README.md = ..\README.md
@@ -45,8 +45,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_04_Modbus", "Demo_04_Modbus\Demo_04_Modbus.csproj", "{E2497770-FD7B-4834-A9A6-250B405FBC75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo 7", "Demo 7", "{9CC81319-59BF-4F15-853B-86AFF9B04F95}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo 8", "Demo 8", "{630D3747-4D24-4994-932B-B885FF89CAAD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_07_Server", "Demo_07 - Ethernet\Demo_07_Server\Demo_07_Server.csproj", "{2A56FF4E-D0FD-4D74-8A30-FDE2201DE38C}"
 EndProject

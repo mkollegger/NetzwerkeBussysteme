@@ -11,8 +11,13 @@ namespace Demo_03_RS232_PC
             port.DataReceived += PortOnDataReceived;
             port.Open();
 
+
+            port.WriteLine("Hallo zurück!");
+
             Console.WriteLine("Any key to exit!");
             Console.ReadKey();
+
+
         }
 
         private static void PortOnDataReceived(object sender, SerialDataReceivedEventArgs e)

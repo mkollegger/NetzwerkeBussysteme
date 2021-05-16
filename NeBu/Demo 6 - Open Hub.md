@@ -1,4 +1,4 @@
-# RS232 Lab
+# Open Hub Lab
 
 ## Entwicklungstools
 - 

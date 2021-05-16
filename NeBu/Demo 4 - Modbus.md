@@ -1,7 +1,7 @@
-# RS232 Lab
+# Modbus Lab
 
 ## Entwicklungstools
-- 
+- Visual Studio
 
 ## Links zum Lab
 - 

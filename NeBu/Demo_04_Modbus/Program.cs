@@ -41,10 +41,10 @@ namespace Demo_04_Modbus
                     Thread.Sleep(1000);
                     if (Console.KeyAvailable)
                         break;
-                    if (data[0] > 5)
-                        master.WriteSingleCoil(slaveId, 48, false);
-                    else
-                        master.WriteSingleCoil(slaveId, 48, true);
+                    //if (data[0] > 5)
+                    //    master.WriteSingleCoil(slaveId, 48, false);
+                    //else
+                    //    master.WriteSingleCoil(slaveId, 48, true);
                 } while (true);
 
             }
